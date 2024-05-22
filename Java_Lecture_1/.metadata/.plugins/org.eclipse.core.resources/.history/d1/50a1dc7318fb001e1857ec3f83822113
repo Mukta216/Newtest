@@ -1,0 +1,18 @@
+
+public class StaticAndNonstatic {
+	public static int q=200;
+	public int p=100;
+	
+	//static fun
+	public static void first_fun() {
+		int abc=20;
+	}
+	//non static fun
+	public void second_fun() {
+		int xyz=100;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("hiii");
+	}
+}
